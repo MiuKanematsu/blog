@@ -1,7 +1,7 @@
 +++
 author = "Miu"
 title = "このブログについて"
-date = "2023-09-16"
+date = "2023-09-17"
 description = "このブログに関する説明"
 tags = [
     
