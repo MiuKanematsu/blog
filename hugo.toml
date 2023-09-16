@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = 'sk3'
+[Params.card]
+date    = true
+summary = true
+width   = "32%"
