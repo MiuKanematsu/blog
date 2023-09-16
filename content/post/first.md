@@ -76,6 +76,11 @@ GitHubからコピーしてきたURLのgithub.comの部分を以下のように�
 ssh接続時に非公開鍵を使用するため，ホスト名を置き換える必要がある．
 これをしないとpushやpullが機能しない場合がある．
 
+## サーバーの起動コマンド
+
+```bash
+hugo server --ignoreCache -w -D
+```
 
 ## git push -u origin main調べた
 
