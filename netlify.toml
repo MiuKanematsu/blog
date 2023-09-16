@@ -6,4 +6,4 @@
 
 [build.environment]
   HUGO_VERSION = "0.118.2"
-
+  TZ="Asia/Tokyo"
