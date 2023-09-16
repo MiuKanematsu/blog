@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Blog'
 theme = 'sk3'
 timeZone='Asia/Tokyo'
-summaryLength = 128
+summaryLength = 0
 [Params.card]
 date    = true
 summary = true
