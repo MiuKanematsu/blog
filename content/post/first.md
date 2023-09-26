@@ -8,15 +8,19 @@ tags = [
 ]
 +++
 
-# 目的
+<!-- ### 目的 -->
 
 このブログは自分用の技術メモとして使います．
 
-## 記事を書く際のTips
+---
+
+### 記事を書く際のTips
 
 [MarkDownチートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 
-## Deploy手順
+---
+
+### Deploy手順
 
 ```bash
 git add ファイル名
@@ -36,7 +40,9 @@ git commit
 #[G]: ファイルの末尾にジャンプ
 ```
 
-# hugoのブログ構築手順
+---
+
+#### hugoのブログ構築手順
 
 1. hugoプロジェクトを作成する
 1. gitリポジトリを作成(git init)
@@ -48,7 +54,9 @@ git commit
 1. netlifyのプロジェクトやアカウント設定
 1. git add, commit, push
 
-## gitリポジトリにリモートリポジトリを設定する方法
+---
+
+#### gitリポジトリにリモートリポジトリを設定する方法
 
 以下のコマンドでホスト名を確認する
 
@@ -76,12 +84,16 @@ GitHubからコピーしてきたURLのgithub.comの部分を以下のように�
 ssh接続時に非公開鍵を使用するため，ホスト名を置き換える必要がある．
 これをしないとpushやpullが機能しない場合がある．
 
-## サーバーの起動コマンド
+---
+
+#### サーバーの起動コマンド
 
 ```bash
 hugo server --ignoreCache -w -D
 ```
 
-## git push -u origin main調べた
+---
+
+#### git push -u origin main調べた
 
 [git pushのオプション-uとは](https://qiita.com/shumpeism/items/1b8027c8905ca826416d)

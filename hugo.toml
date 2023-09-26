@@ -8,3 +8,8 @@ summaryLength = 0
 date    = true
 summary = true
 width   = "32%"
+[Params.color]
+bg = "white"
+border = "black"
+link = "-webkit-link"
+text = "black"
